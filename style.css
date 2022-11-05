@@ -41,11 +41,39 @@ body *{
     
     width: fit-content;
     margin: auto;
-    padding-top: 52px;
+    padding-top: 15px;
 }
 header {
-    margin: 52PX auto;
+    margin: 30PX auto;
     text-align: center;
+}
+header #temer{
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    margin: 15px auto;
+    gap: 25px;
+}
+header #yellow{
+    background-color: #F7DD43;
+    height: 15px;
+    width: 30px;
+    
+    
+}
+header #blue{
+    background-color: #338Af3;
+    height: 15px;
+    width: 30px;
+    
+    
+}
+header #green{
+    background-color: #4ddc3f;
+    height: 15px;
+    width: 30px;
+    
+    
 }
 #cards{
     display: flex;
