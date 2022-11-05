@@ -1,3 +1,9 @@
+const body = document.querySelector('body').addEventListener('load', (event)=>{event.preventDefault()})
+const tema = document.querySelector('.tema')
+const buttonYellow = document.querySelector('#yellow').addEventListener("click", ()=>{ tema.className = 'yellow';})
+const buttonBlue = document.querySelector('#blue').addEventListener("click", ()=>{ tema.className = 'blue';})
+const buttonGreen = document.querySelector('#green').addEventListener("click", ()=>{ tema.className = 'green';})
+
 function createGame(player1, hour, player2){
     return `
     <li>
@@ -18,6 +24,7 @@ function createCard(date, day, games){
                 </ul>
             </div>`
 }
+
 
 document.querySelector('#cards').innerHTML =
 
